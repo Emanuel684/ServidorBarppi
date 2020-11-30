@@ -25,7 +25,7 @@ const { uuid } = require('uuidv4');
 const app = express();
 
 //CORS
-app.use(cors());
+app.use(cors({origin: 'https://equipo8-sap-ppi-2020.vercel.app'}));
 
 // Middlewares
 app.use(morgan('dev'));
