@@ -25,7 +25,7 @@ const { uuid } = require('uuidv4');
 const app = express();
 
 //CORS
-app.use(cors({origin: '*'}));
+app.use(cors());
 
 // Middlewares
 app.use(morgan('dev'));
